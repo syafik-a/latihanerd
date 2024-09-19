@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="uZJ9G8kULQ-DY5_qbceA">
-    <mxGraphModel dx="1592" dy="2119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="995" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
         <mxCell id="TPYVVtjIbqtEJoVOwPCA-26" value="nama" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TPYVVtjIbqtEJoVOwPCA-24">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TPYVVtjIbqtEJoVOwPCA-27" value="kelas" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TPYVVtjIbqtEJoVOwPCA-24">
+        <mxCell id="TPYVVtjIbqtEJoVOwPCA-27" value="kelas_id (fk)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TPYVVtjIbqtEJoVOwPCA-24">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TPYVVtjIbqtEJoVOwPCA-28" value="jurusan_id (fk)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TPYVVtjIbqtEJoVOwPCA-24">
@@ -134,7 +134,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TPYVVtjIbqtEJoVOwPCA-37" value="jurusan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="-150" width="140" height="90" as="geometry" />
+          <mxGeometry x="320" y="-200" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="TPYVVtjIbqtEJoVOwPCA-38" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TPYVVtjIbqtEJoVOwPCA-37">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -148,7 +148,7 @@
             <mxPoint x="300" y="-110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="270" y="-65" />
-              <mxPoint x="270" y="-105" />
+              <mxPoint x="270" y="-155" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -238,6 +238,25 @@
             <mxPoint x="450" y="595" as="sourcePoint" />
             <mxPoint x="395" y="595" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPYVVtjIbqtEJoVOwPCA-62" value="jurusan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-100" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TPYVVtjIbqtEJoVOwPCA-63" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TPYVVtjIbqtEJoVOwPCA-62">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPYVVtjIbqtEJoVOwPCA-64" value="nama" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TPYVVtjIbqtEJoVOwPCA-62">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPYVVtjIbqtEJoVOwPCA-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TPYVVtjIbqtEJoVOwPCA-27" target="TPYVVtjIbqtEJoVOwPCA-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-55" as="sourcePoint" />
+            <mxPoint x="320" y="-145" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="-95" />
+              <mxPoint x="270" y="-55" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
